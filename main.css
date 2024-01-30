@@ -1,0 +1,15 @@
+/*selecionar elemento pelo id*/
+#economy h2 {
+    color: #00CED1;
+}
+
+/*selecionar elemento pela classe*/
+.sports {
+    color: #D2691E;
+}
+
+/*selecionar todos os elementos*/
+
+* {
+    color: red;
+}
