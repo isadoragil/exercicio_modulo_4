@@ -13,3 +13,13 @@
 * {
     color: red;
 }
+
+.title {
+    height: 37px;
+    padding: 8px 2px 3px 4px;
+    border: 2px solid red;
+    margin: 0;
+    text-decoration: none;
+    text-transform: none;
+    /*box-sizing: border-box;  vai enquadrar o elemento dentro dos 37px*/ 
+}
