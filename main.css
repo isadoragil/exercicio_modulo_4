@@ -1,25 +1,27 @@
-/*selecionar elemento pelo id*/
-#economy h2 {
-    color: #00CED1;
-}
-
-/*selecionar elemento pela classe*/
-.sports {
-    color: #D2691E;
-}
-
-/*selecionar todos os elementos*/
-
-* {
-    color: red;
-}
-
-.title {
-    height: 37px;
-    padding: 8px 2px 3px 4px;
-    border: 2px solid red;
+* { /*reset*/
     margin: 0;
-    text-decoration: none;
-    text-transform: none;
-    /*box-sizing: border-box;  vai enquadrar o elemento dentro dos 37px*/ 
+    padding: 0;
+}
+
+header li {
+    display: inline;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    height: 180px;
+}
+
+.articles article {
+    width: 30%;
 }
