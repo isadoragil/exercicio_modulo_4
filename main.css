@@ -103,3 +103,29 @@ section h2 {
     text-decoration: underline;
     background-color:  #fac67c;
 }
+
+#technology {
+    background-color: hsl(230, 100%, 84%);
+}
+
+#technology .articles article a {
+    background-color: #7577ff;
+}
+
+#technology .articles article a:hover {
+    text-decoration: underline;
+    background-color:  #494cfc;
+}
+
+#entertainment {
+    background-color: hsl(337, 100%, 88%);
+}
+
+#entertainment .articles article a {
+    background-color: #ff86c2;
+}
+
+#entertainment .articles article a:hover {
+    text-decoration: underline;
+    background-color:  #ff4ea6;
+}
